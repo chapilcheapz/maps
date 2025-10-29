@@ -1,10 +1,11 @@
 import VietMap from "./components/MyMap";
+// import TestFirebase from "./TestFirebase"
 
 export default  function App() {
   return (
     <div>
-      <h2>Bản đồ VietMap</h2>
       <VietMap />
+            {/* <TestFirebase /> */}
     </div>
   );
 }
